@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property IBOutlet UITextField *tnombre;
+@property IBOutlet UITextField *tgenero;
+@property IBOutlet UITextField *tany;
+@property IBOutlet UITextField *tpais;
 
 @end
 
