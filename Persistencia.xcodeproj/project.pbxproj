@@ -15,6 +15,9 @@
 		AAC6C2F0208E45C4009F91FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C2EF208E45C4009F91FC /* main.m */; };
 		AAC6C2FA208E45C4009F91FC /* PersistenciaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C2F9208E45C4009F91FC /* PersistenciaTests.m */; };
 		AAC6C305208E45C4009F91FC /* PersistenciaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C304208E45C4009F91FC /* PersistenciaUITests.m */; };
+		AAC6C314208E4F53009F91FC /* SqliteLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C313208E4F53009F91FC /* SqliteLoad.m */; };
+		AAC6C317208E4F76009F91FC /* TestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C316208E4F76009F91FC /* TestDAO.m */; };
+		AAC6C31A208E4F8A009F91FC /* Grupo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C319208E4F8A009F91FC /* Grupo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		AAC6C300208E45C4009F91FC /* PersistenciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC6C304208E45C4009F91FC /* PersistenciaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenciaUITests.m; sourceTree = "<group>"; };
 		AAC6C306208E45C4009F91FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC6C312208E4F53009F91FC /* SqliteLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqliteLoad.h; sourceTree = "<group>"; };
+		AAC6C313208E4F53009F91FC /* SqliteLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteLoad.m; sourceTree = "<group>"; };
+		AAC6C315208E4F76009F91FC /* TestDAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDAO.h; sourceTree = "<group>"; };
+		AAC6C316208E4F76009F91FC /* TestDAO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDAO.m; sourceTree = "<group>"; };
+		AAC6C318208E4F89009F91FC /* Grupo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grupo.h; sourceTree = "<group>"; };
+		AAC6C319208E4F8A009F91FC /* Grupo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grupo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				AAC6C2EB208E45C4009F91FC /* LaunchScreen.storyboard */,
 				AAC6C2EE208E45C4009F91FC /* Info.plist */,
 				AAC6C2EF208E45C4009F91FC /* main.m */,
+				AAC6C312208E4F53009F91FC /* SqliteLoad.h */,
+				AAC6C313208E4F53009F91FC /* SqliteLoad.m */,
+				AAC6C315208E4F76009F91FC /* TestDAO.h */,
+				AAC6C316208E4F76009F91FC /* TestDAO.m */,
+				AAC6C318208E4F89009F91FC /* Grupo.h */,
+				AAC6C319208E4F8A009F91FC /* Grupo.m */,
 			);
 			path = Persistencia;
 			sourceTree = "<group>";
@@ -263,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC6C2E5208E45C0009F91FC /* ViewController.m in Sources */,
+				AAC6C317208E4F76009F91FC /* TestDAO.m in Sources */,
+				AAC6C314208E4F53009F91FC /* SqliteLoad.m in Sources */,
+				AAC6C31A208E4F8A009F91FC /* Grupo.m in Sources */,
 				AAC6C2F0208E45C4009F91FC /* main.m in Sources */,
 				AAC6C2E2208E45C0009F91FC /* AppDelegate.m in Sources */,
 			);
