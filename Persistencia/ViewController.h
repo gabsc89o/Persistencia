@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tabla.h"
 
 @interface ViewController : UIViewController
+
 
 @property IBOutlet UITextField *tnombre;
 @property IBOutlet UITextField *tgenero;

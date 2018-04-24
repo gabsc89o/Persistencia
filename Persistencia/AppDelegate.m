@@ -17,6 +17,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //vamos a mirar si el fichero existe en la carpeta de usuario, sin existe nada caso contrario lo copiamos
+    NSArray *pathq = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    //recuperamos el nombre de la ruta
+    NSString *directorio = [pathq objectAtIndex:0];
+    //montamos el nombre completo de la ruta pathq + fichero
+    NSString *pathBDModificable = [directorio stringByAppendingPathComponent:@"bbdd.sqlite"];
+    //comprobar si el fichero esta o no
+    BOOL ok = [[NSFileManager defaultManager]fileExistsAtPath:pathBDModificable];
+    if (ok)
+        return YES;
+    
+    NSString *pathBDBundle = [[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:@"bbdd.sqlite"];
+    NSError *error;
+    ok = [[NSFileManager defaultManager]copyItemAtPath:pathBDBundle toPath:pathBDModificable error:&error];
+    if (ok) {
+        NSAssert1(0, @"Error al copiar la BD", [error localizedDescription]);
+    }
     return YES;
 }
 

@@ -19,6 +19,13 @@
 		AAC6C317208E4F76009F91FC /* TestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C316208E4F76009F91FC /* TestDAO.m */; };
 		AAC6C31A208E4F8A009F91FC /* Grupo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C319208E4F8A009F91FC /* Grupo.m */; };
 		AAC6C31D208E622E009F91FC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC6C31C208E622E009F91FC /* libsqlite3.tbd */; };
+		AAF3C97C208F913100AA435A /* Tabla.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3C97B208F913100AA435A /* Tabla.m */; };
+		AAF3C97E208F91C100AA435A /* bbdd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AAF3C97D208F91C100AA435A /* bbdd.sqlite */; };
+		AAF3C97F208F91C100AA435A /* bbdd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AAF3C97D208F91C100AA435A /* bbdd.sqlite */; };
+		AAF3C980208F91C100AA435A /* bbdd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AAF3C97D208F91C100AA435A /* bbdd.sqlite */; };
+		AAF3C983208FA8F800AA435A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3C982208FA8F800AA435A /* ViewController2.m */; };
+		AAF3C984208FA8F800AA435A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3C982208FA8F800AA435A /* ViewController2.m */; };
+		AAF3C985208FA8F800AA435A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF3C982208FA8F800AA435A /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +69,11 @@
 		AAC6C318208E4F89009F91FC /* Grupo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grupo.h; sourceTree = "<group>"; };
 		AAC6C319208E4F8A009F91FC /* Grupo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grupo.m; sourceTree = "<group>"; };
 		AAC6C31C208E622E009F91FC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AAF3C97A208F913100AA435A /* Tabla.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tabla.h; sourceTree = "<group>"; };
+		AAF3C97B208F913100AA435A /* Tabla.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tabla.m; sourceTree = "<group>"; };
+		AAF3C97D208F91C100AA435A /* bbdd.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = bbdd.sqlite; path = ../../../../bbdd.sqlite; sourceTree = "<group>"; };
+		AAF3C981208FA8F800AA435A /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		AAF3C982208FA8F800AA435A /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,7 @@
 		AAC6C2DF208E45C0009F91FC /* Persistencia */ = {
 			isa = PBXGroup;
 			children = (
+				AAF3C97D208F91C100AA435A /* bbdd.sqlite */,
 				AAC6C2E0208E45C0009F91FC /* AppDelegate.h */,
 				AAC6C2E1208E45C0009F91FC /* AppDelegate.m */,
 				AAC6C2E3208E45C0009F91FC /* ViewController.h */,
@@ -129,6 +142,10 @@
 				AAC6C316208E4F76009F91FC /* TestDAO.m */,
 				AAC6C318208E4F89009F91FC /* Grupo.h */,
 				AAC6C319208E4F8A009F91FC /* Grupo.m */,
+				AAF3C97A208F913100AA435A /* Tabla.h */,
+				AAF3C97B208F913100AA435A /* Tabla.m */,
+				AAF3C981208FA8F800AA435A /* ViewController2.h */,
+				AAF3C982208FA8F800AA435A /* ViewController2.m */,
 			);
 			path = Persistencia;
 			sourceTree = "<group>";
@@ -265,6 +282,7 @@
 				AAC6C2ED208E45C4009F91FC /* LaunchScreen.storyboard in Resources */,
 				AAC6C2EA208E45C4009F91FC /* Assets.xcassets in Resources */,
 				AAC6C2E8208E45C0009F91FC /* Main.storyboard in Resources */,
+				AAF3C97E208F91C100AA435A /* bbdd.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF3C97F208F91C100AA435A /* bbdd.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF3C980208F91C100AA435A /* bbdd.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF3C97C208F913100AA435A /* Tabla.m in Sources */,
 				AAC6C2E5208E45C0009F91FC /* ViewController.m in Sources */,
 				AAC6C317208E4F76009F91FC /* TestDAO.m in Sources */,
 				AAC6C314208E4F53009F91FC /* SqliteLoad.m in Sources */,
 				AAC6C31A208E4F8A009F91FC /* Grupo.m in Sources */,
+				AAF3C983208FA8F800AA435A /* ViewController2.m in Sources */,
 				AAC6C2F0208E45C4009F91FC /* main.m in Sources */,
 				AAC6C2E2208E45C0009F91FC /* AppDelegate.m in Sources */,
 			);
@@ -303,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC6C2FA208E45C4009F91FC /* PersistenciaTests.m in Sources */,
+				AAF3C984208FA8F800AA435A /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC6C305208E45C4009F91FC /* PersistenciaUITests.m in Sources */,
+				AAF3C985208FA8F800AA435A /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,4 +21,6 @@
               error:(NSError **)error;
 -(Grupo *)recuperarRecord;
 
+-(NSArray *)listarPruebas:(NSError **)error;
+
 @end
