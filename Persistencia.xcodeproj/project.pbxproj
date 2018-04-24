@@ -18,6 +18,7 @@
 		AAC6C314208E4F53009F91FC /* SqliteLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C313208E4F53009F91FC /* SqliteLoad.m */; };
 		AAC6C317208E4F76009F91FC /* TestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C316208E4F76009F91FC /* TestDAO.m */; };
 		AAC6C31A208E4F8A009F91FC /* Grupo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C319208E4F8A009F91FC /* Grupo.m */; };
+		AAC6C31D208E622E009F91FC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC6C31C208E622E009F91FC /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		AAC6C316208E4F76009F91FC /* TestDAO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDAO.m; sourceTree = "<group>"; };
 		AAC6C318208E4F89009F91FC /* Grupo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grupo.h; sourceTree = "<group>"; };
 		AAC6C319208E4F8A009F91FC /* Grupo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grupo.m; sourceTree = "<group>"; };
+		AAC6C31C208E622E009F91FC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC6C31D208E622E009F91FC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,7 @@
 				AAC6C2F8208E45C4009F91FC /* PersistenciaTests */,
 				AAC6C303208E45C4009F91FC /* PersistenciaUITests */,
 				AAC6C2DE208E45C0009F91FC /* Products */,
+				AAC6C31B208E622E009F91FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +149,14 @@
 				AAC6C306208E45C4009F91FC /* Info.plist */,
 			);
 			path = PersistenciaUITests;
+			sourceTree = "<group>";
+		};
+		AAC6C31B208E622E009F91FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6C31C208E622E009F91FC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
